@@ -16,13 +16,15 @@ body{
     
     display: flex;
     background-color: #b8d7e9;
-    border-radius: 10%;
-    padding: 5rem 0;
-    margin: 1rem;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    padding: 5rem 2rem;
     justify-content: center;
+    
     
 }
 .kiri-atas{
+    display: flex;
     position: absolute;
     top: 17rem;
 }
@@ -36,8 +38,9 @@ body{
 .kanan{
     display: flex;
     background-color: white;
-    border-radius: 10%;
-    padding: 5rem 0;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    padding: 5rem 2rem;
     justify-content: center;
 }
 .tombol{
