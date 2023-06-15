@@ -7,16 +7,22 @@
     <title>JoyCon</title>
 </head>
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap" rel="stylesheet">
 <body>
     <div class="controller">
         <div class="kiri">
-            <p>up</p><br>
-            <p>left</p><p>right</p><br>
-            <p>down</p>
+            <div class="padtomb kiri-atas"><p class="tombol btn-arah">up</p><br></div>
+
+            <div class="padtomb kiri-tengah"><p class="tombol btn-arah">left</p><p class="tombol btn-arah">right</p><br></div>
+            
+            <div class="padtomb kiri-atas"><p class="tombol btn-arah">down</p></div>
+            
         </div>
 
         <div class="kanan">
-            <p>B</p><p>A</p>
+            <p class="tombol btn-aksi">B</p><p class="tombol btn-aksi">A</p>
         </div>
     </div>
     <!-- buat komponen yang menggambarkan controller @MUTAMA -->

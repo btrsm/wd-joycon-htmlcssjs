@@ -1,4 +1,50 @@
 body{
-    margin-top: 0;
+    margin: 0;
     padding: 15rem 10rem;
+    font-weight: 500;
+    font-family: 'Fira Sans', sans-serif;
+    min-height: 100vh;
+    background-color: #dcdcdc;
+}
+.controller{
+    display: flex;
+    justify-content: center;
+}
+ /*------ KIRI ------*/
+.kiri{
+    
+    display: flex;
+    background-color: #b8d7e9;
+    border-radius: 10%;
+    padding: 5rem 0;
+    margin: 1rem;
+    justify-content: center;
+    
+}
+.kiri-atas{
+    display: flex;
+    justify-content: center;
+}
+.kiri-tengah{
+    display: flex;
+    justify-content: space-between;
+}
+.padtomb{
+    padding: 2rem;
+}
+.kanan{
+    display: flex;
+    background-color: white;
+    border-radius: 10%;
+    padding: 5rem 0;
+    margin: 1rem;
+    justify-content: center;
+}
+.tombol{
+    
+    background-color: whitesmoke;
+    border: groove;
+    border-radius: 10%;
+    padding: 1rem;
+
 }
