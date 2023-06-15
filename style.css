@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    padding: 15rem 10rem;
+    padding: 10rem 10rem;
     font-weight: 500;
     font-family: 'Fira Sans', sans-serif;
     min-height: 100vh;
@@ -10,6 +10,13 @@ body{
     display: flex;
     justify-content: center;
     border: dotted;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10%;
+    margin-bottom: 2rem;
 }
  /*------ KIRI ------*/
 .kiri{
@@ -26,7 +33,7 @@ body{
 .kiri-atas{
     display: flex;
     position: absolute;
-    top: 17rem;
+    top: 16rem;
 }
 .kiri-tengah{
     display: flex;
